@@ -24,7 +24,7 @@ interface i_codes extends mongoose.Document {
  * model
  */
 const codes = mongoose.model(
-  'rooms',
+  'codes',
   new schema({
     id: { type: String },
     title: { type: String, minlength: 1, maxlength: 15 },

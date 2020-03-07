@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "parcel src/index.html src/code.html --out-dir public",
+    "build": "parcel build ./src/code.html --public-url ./ -d dist --no-source-maps && cp -r src/img dist/"
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@types/node": "^13.9.0",
+    "babel-polyfill": "^6.26.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
+}

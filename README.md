@@ -16,8 +16,7 @@ https://code.itsumen.com/ <br />
 
 #### フロントエンド
 
-- typescript
-- react redux
+- parcel
 - nginx(静的ファイルを配信)
 
 #### バックエンド

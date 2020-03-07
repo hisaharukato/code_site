@@ -19,6 +19,19 @@ export const constant = {
     'c',
     'rust',
     'perl',
-    'bash'
+    'bash',
+    'swift',
+    'ruby',
+    'c++',
+    'c#',
+    'json',
+    'sql',
+    'yaml',
+    'less',
+    'scss',
+    'typescript',
+    'markdown',
+    'kotlin',
+    'plaintext'
   ]
 };

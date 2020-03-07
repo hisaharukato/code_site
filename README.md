@@ -6,20 +6,20 @@
 
 https://code.itsumen.com/ <br />
 
-# 開発環境
+## 開発環境
 
 - unbuntu18.04
 - docker <br/>
 - docker-compose <br/>
 
-### 使用ライブラリ周り
+## 使用ライブラリ周り
 
-#### フロントエンド
+### フロントエンド
 
 - parcel
 - nginx(静的ファイルを配信)
 
-#### バックエンド
+### バックエンド
 
 - typescript
 - nodejs
@@ -29,11 +29,11 @@ https://code.itsumen.com/ <br />
 
 - mongodb
 
-### set up
+## セットアップ
 
 ```
-git clone https://github.com/tashiro5151/code_site.git code_site
-cd code_site
+$ git clone https://github.com/tashiro5151/code_site.git code_site
+$ cd code_site
 
 .envを編集　※portの開放は各自で設定してください
 SERVER_IP   →　サーバのIP
@@ -41,15 +41,15 @@ NGINX_PORT  →  フロントのポート番号
 BACKEND_PORT →  バックエンドのポート番号
 
 # react・バックエンドnodejsをビルド
-sudo docker-compose -f docker-compose.build.yml up
-sudo docker-compose -f docker-compose.build.yml down -v
+$ sudo docker-compose -f docker-compose.build.yml up
+$ sudo docker-compose -f docker-compose.build.yml down -v
 
 # コンテナを立ち上げる
-sudo docker-compose up -d --build
+$ sudo docker-compose up -d --build
 
 # ブラウザでアクセスする
 http://サーバのIP:NGINX_PORT
 
 # コンテナを落とす
-sudo docker-compose down -v
+$ sudo docker-compose down -v
 ```

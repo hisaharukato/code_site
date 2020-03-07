@@ -40,7 +40,7 @@ const main = async () => {
   }</code></pre>`;
 
   // タイトル
-  document.getElementById('input0').value = _ret['title'];
+  document.getElementById('input0').value = _.escape(_ret['title']);
 
   // 言語
   document.getElementById('input1').value =

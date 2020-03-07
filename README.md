@@ -8,7 +8,7 @@ https://code.itsumen.com/ <br />
 
 ## 開発環境
 
-- unbuntu18.04
+- ubuntu 18.04
 - docker <br/>
 - docker-compose <br/>
 

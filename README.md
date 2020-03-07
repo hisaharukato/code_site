@@ -17,6 +17,8 @@ https://code.itsumen.com/ <br />
 ### フロントエンド
 
 - parcel
+- bootstrap
+- highlight.js
 - nginx(静的ファイルを配信)
 
 ### バックエンド

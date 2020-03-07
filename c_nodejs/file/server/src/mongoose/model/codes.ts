@@ -31,7 +31,7 @@ const codes = mongoose.model(
     genreId: {
       type: Number,
       min: 0,
-      max: 10,
+      max: 23,
       validate: {
         validator: v => {
           if (!Number.isInteger(v)) {

@@ -42,7 +42,7 @@ SERVER_IP   →　サーバのIP
 NGINX_PORT  →  フロントのポート番号
 BACKEND_PORT →  バックエンドのポート番号
 
-# react・バックエンドnodejsをビルド
+# フロント・バックエンドnodejsをビルド
 $ sudo docker-compose -f docker-compose.build.yml up
 $ sudo docker-compose -f docker-compose.build.yml down -v
 

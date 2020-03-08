@@ -1,6 +1,8 @@
 import 'babel-polyfill';
 import { constant } from '../constant';
 
+const QRCode = require('qrcode');
+
 const main = async () => {
   // クエリパラメータがついてなかったら
   if (!location.search) {
@@ -45,6 +47,11 @@ const main = async () => {
   // 言語
   document.getElementById('input1').value =
     constant.LANG[Number(_ret['genreId'])];
+
+  // QRコード
+  QRCode.toCanvas(document.getElementById('canvas0'), location.href, function(
+    error
+  ) {});
 
   // urlコピー
   document.getElementById('url_button').addEventListener('click', e => {
